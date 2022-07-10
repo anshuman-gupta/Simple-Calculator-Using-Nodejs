@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bodyStyle">
+    <div>
+        <div class="inputStyle">
+            <label class="labelStyle" for="number1">Number1: </label>
+            <input type="text" id="number1" name="number1"/> <br/>
+        </div>
+        <br/>
+        <div class="inputStyle">
+            <label class="labelStyle" for="number2">Number2: </label>
+            <input type="text" id="number2" name="number2"/> <br/>
+        </div>
+        <br/>
+        <div class="inputStyle">
+            <label class="labelStyle" for="result">Result: </label>
+            <input type="text" id="result" style="margin-left: 25px;"/> <br/>
+        </div>
+        <br/><br/>
+        <button class="buttonStyle" onClick="add()">+</button>
+        <button class="buttonStyle" onClick="sub()">-</button>
+        <button class="buttonStyle" onClick="mul()">*</button>
+        <button class="buttonStyle" onClick="div()">/</button>
+        <br/><br/>
+        <div style="margin-left:80px;">
+            <button class="buttonStyle" onClick="clearInput()">Clear All</button>
+        </div>
+    </div>
+    <br/><br/>
+</body>
+<script src="calc.js"></script>
+
+</html>
